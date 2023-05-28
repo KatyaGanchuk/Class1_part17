@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+int main() {
+ float a, b, c;
+ float D;
+ cout << "a";
+ cin >> a;
+ cout << "b";
+ cin >> b;
+ cout << "c";
+ cin >> c;
+ D = (b * b) - (4 * a * c);
+ 
+ if (D>=0) {
+ cout << "true";
+ }
+ else {
+ cout << "fols";
+}
+}
