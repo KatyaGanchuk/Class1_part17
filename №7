@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+int main() {
+int a, b,c;
+ cout << "a";
+ cin >>a;
+ cout << "b";
+ cin >> b;
+ cout << "c";
+ cin >> c; 
+ if (b> a&&b < C || b<a&&b>c) {
+ cout << "true";
+ }
+ else {
+ cout << "fols";
+ }
